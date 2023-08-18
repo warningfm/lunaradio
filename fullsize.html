@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Player para Smartphones | Streaming by welltecnologia.com.br</title>
+	<meta name="description" content="Worldwide first browser based website internet radio player in the fourth generation, playing all MPEG-Audio streams. It works responsive and it’s simple to insert on your site. Also working on smartphones/smartpads."/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.html">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/72x72.html" />
+	<link rel="apple-touch-icon" sizes="114x114" href="img/114x114.html" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link href="css/bootstrap.minaf51.css?v=1.20.05.21" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/themify-icons.minaf51.css?v=1.20.05.21" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/lightbox.minaf51.css?v=1.20.05.21" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/theme-lunaaf51.css?v=1.20.05.21" rel="stylesheet" type="text/css" media="all" />
+	<meta name="theme-color" content="#fa225b" />
+
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Player Well Tecnologia Streaming AAC+"/>
+	<meta property="og:description" content="O primeiro player mundial baseado em navegador e em HTML HTML5 MP3/AAC+ Radio FM Plugin Player na quarta geração, reproduzindo todos os fluxos MPEG-Audio/AAC+  e está escrito em JavaScript compatível com iOS, Android e oferece suporte a todos os navegadores Firefox, Chrome, Safari, IE e Opera!">
+	<meta property="og:url" content="https://www.welltecnologia.com.br" />
+	<meta property="og:site_name" content="WELLTECNOLOGIA" />
+	<meta property="article:author" content="https://www.facebook.com/welltecnologia.hosting" />
+	<meta property="article:tag" content="internetradio" />
+	<meta property="article:section" content="Webradio" />
+	<meta property="article:published_time" content="2018-02-21T19:06:10+01:00" />
+	<meta property="article:modified_time" content="2018-02-21T19:06:10+01:00" />
+	<meta property="og:image" content="https://www.welltecnologia.com.br/player_2018/player.png">
+	<meta name="twitter:card" content="resumo"/>
+	<meta name="twitter:site" content="welltecnologia.hosting"/>
+	<meta name="twitter:image" content="https://www.welltecnologia.com.br/player_2018/player.png"/>
+	<meta name="twitter:description" content="O primeiro player mundial baseado em navegador e em HTML HTML5 MP3/AAC+ Radio FM Plugin Player na quarta geração, reproduzindo todos os fluxos MPEG-Audio/AAC+  e está escrito em JavaScript compatível com iOS, Android e oferece suporte a todos os navegadores Firefox, Chrome, Safari, IE e Opera!"/>
+
+		<style>
+		html, body {
+			margin:0;
+			padding:0;
+			/*overflow: hidden;*/
+			width:100%;
+			height:100%;
+		}
+		.fs-vid-background {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			z-index: 2;
+		}
+		.fs-vid-background video {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+		video {
+			max-width: 100%;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="fs-vid-background">
+		<video autoplay="true" muted="true" loop="true">
+			<source src="videos/home2.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div id="romanticawellbig" style="width:100%; height: 100%; position: absolute; left:0; top:0; z-index: 300;">
+		Streaming by welltecnologia.com.br
+	</div>
+
+	<script src="https://www.welltecnologia.com.br/frame/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://www.welltecnologia.com.br/frame/js/lunaradio.min.js"></script>
+	<script type="text/javascript">
+		$("#romanticawellbig").lunaradio({
+        token: "aWlpIGlXXl5mV1VgYV5hWVtTIFVhXyBUZA==",
+        userinterface: "big",
+        backgroundcolor: "rgba(0,0,0,0.5)",
+		fontcolor: "#ffffff",
+		hightlightcolor: "#61390b", 
+        fontname: "Saira Condensed",
+        googlefont: "Saira+Condensed:wght@100",
+        fontratio: "0.4",
+        radioname: "MPB by Well",
+        scroll: "true",
+        coverimage: "https://www.welltecnologia.com.br/frame/well/MPB.png",
+        onlycoverimage: "false",
+        coverstyle: "animated",
+        usevisualizer: "real",
+        visualizertype: "2",
+        itunestoken: "1000lIPN",
+        metadatatechnic: "fallback",
+        ownmetadataurl: "",
+        streamurl: "https://conecta.welltecnologia.com.br/radio/8010",
+        streamtype: "shoutcast2",
+        icecastmountpoint: "",
+        radionomyid: "",
+        radionomyapikey: "",
+        radiojarid: "",
+        radiocoid: "",
+        shoutcastpath: "/radio.mp3",
+        shoutcastid: "1",
+        streamsuffix: "",
+        metadatainterval: "20000",
+        volume: "70",
+        debug: "false",
+        usestreamcorsproxy: "false", 
+        corsproxy: "",
+        autoplay: "true",
+        displayliveicon: "true",
+        displayvisualizericon: "true",
+        multicolorvisualizer: "true",
+        color1: "#401000",
+        color2: "#701000",
+        color3: "#61390b",
+        color4: "#61390b",
+        visualizeropacity: "0.4"
+		});		
+	</script>
+<div style="position: absolute; top:100%; width: 100%;">
+
+
+<footer class="footer-2 bg-dark">
+	<div class="container">
+		<div class="row fade-half">
+			<div class="col-sm-12 text-center">
+				<span>Tecnologia desta Emissora: CODEC AAC+ 64k/Shoutcast v2 com o Painel AzuraCast/RadioBoss Advanced/Servidor Dedicado</span>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+</body>
+</html>

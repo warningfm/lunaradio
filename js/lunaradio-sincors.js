@@ -770,7 +770,7 @@ break;
 
 case "radiozeno":
 ! function() {
-var t = "https://tools.zenoradio.com/api/stations/" + zn + "/now_playing/?rand=" + Math.random();
+var t = "https://api.streamafrica.net/zeno/index.php?z=" + zn + ";
 e.ajax({
 dataType: "text",
 method: "GET",

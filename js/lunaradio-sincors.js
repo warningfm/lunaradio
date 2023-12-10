@@ -1,5 +1,5 @@
 /*!
-* LUNA RADIO PLAYER - CHAN
+* LUNA RADIO PLAYER - CHAN / CHAN STUDIOS
 * https://www.luna-universe.com
 *
 * Copyright (C) SODAH | JOERG KRUEGER
@@ -770,7 +770,7 @@ break;
 
 case "radiozeno":
 ! function() {
-var t = "https://api.streamafrica.net/zeno/index.php?z=" + zn ");
+var t = "https://tools.zenoradio.com/api/stations/" + zn + "/now_playing/?rand=" + Math.random();
 e.ajax({
 dataType: "text",
 method: "GET",
